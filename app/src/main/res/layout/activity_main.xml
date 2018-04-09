@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1FB4E2"
+    android:orientation="vertical"
+    tools:context="com.example.android.helloandroid.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/course"
+        android:fontFamily="cursive"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:padding="5dp" />
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:background="@android:color/white"
+        android:paddingBottom="6dp"
+        android:paddingTop="6dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/udacity" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="cursive"
+        android:layout_gravity=""
+        android:layout_marginBottom="7dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/name"
+        android:textColor="@android:color/black"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:paddingRight="190dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_phone"
+        android:paddingBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/phone"
+        android:drawablePadding="8dp"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_location"
+        android:paddingLeft="10dp"
+        android:text="@string/address"
+        android:drawablePadding="8dp"
+        android:autoLink="map"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:text="@string/website"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/website"
+        android:drawableLeft="@drawable/ic_web"
+        android:drawablePadding="8dp"
+        android:autoLink="web"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:textColor="@android:color/black"
+        android:textColorLink="@android:color/black"
+        android:textSize="16sp"
+        android:layout_marginTop="6dp"/>
+
+</LinearLayout>
+
+
+
